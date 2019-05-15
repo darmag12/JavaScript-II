@@ -1,5 +1,23 @@
 // ==== Challenge 1: Write your own closure ====
 // Write a simple closure of your own creation.  Keep it simple!
+function hubbyDaryl(){
+let husband = 'Daryl';
+let wife = 'Gwendolyn';
+  console.log(`My name is ${husband}`);
+
+function wifeyGwendolyn(){
+  console.log(`My name is ${wife}`);
+
+  function covenant(){
+    console.log(`${husband} and ${wife} got married on september 2nd 2018`);
+  }
+  covenant(); 
+}
+wifeyGwendolyn();
+}
+hubbyDaryl();
+//console.log(hubbyDaryl());
+
 
 
 /* STRETCH PROBLEMS, Do not attempt until you have completed all previous tasks for today's project files */
